@@ -107,7 +107,65 @@ The interfaces to Git and GitHub are:
 (https://programminghistorian.org/lessons/getting-started-with-github-desktop)
 </p>
 
-For this workshop, we will mainly use GitHub's online interface and git commands.
+For this workshop, we will use git commands and GitHub's online interface.
+
+
+### Examples
+
+- To host and share your research outputs and software
+  - Research slides by [Bérénice Batut](https://bebatut-slides.github.io/backofen_lab_retreat_04_17/#/)
+  - Laboratories sharing own research e.g. [Jefferis](https://github.com/jefferislab) and [Balasubramanian](https://github.com/sblab-bioinformatics)
+  - Software source codes e.g. [BWA](https://github.com/lh3/bwa), an aligner of DNA sequences to reference genomes, and [PIDGIN](https://github.com/lhm30/PIDGINv2), and algorithm to predict protein targets for drug-like molecules
+
+- To create websites using [GitHub pages]((https://pages.github.com/))
+  - Personal websites, e.g. [Mike Love site](http://mikelove.github.io/)
+  - Courses and activities, e.g. the [Statistics course in the University of British Columbia](http://stat545.com/index.html)
+
+- To share the contents of a book, e.g. [Bioinformatics Data Skills](https://github.com/vsbuffalo/bds-files) or [Happy Git and GitHub for the R user](http://happygitwithr.com/)
+
+
+### In the context of our research group
+
+- Communication is key as most projects have both experimental and computational leaders
+- Classical ways of exchange are: conversations/meetings, email, Dropbox, shared folders ...
+- We want to build an environment where:
+  - Computational colleagues can share code, figures and tables. Review others work and get credit from their collaborative work
+  - Experimental colleagues can follow computational developments, access results and learn methods of data analysis
+
+- And avoid situations like ...
+
+<p align="center">
+<img src=../../../20171024_GitHub_Chemistry_Cambridge/blob/master/images/reproducibility.gif width="800">
+</p>
+
+<p align="right">
+(http://phdcomics.com/comics.php?f=1689)
+</p>
+
+- Striving for a happier lifetime of a project:
+
+<p align="center">
+<img src=../../../20171024_GitHub_Chemistry_Cambridge/blob/master/images/project_timeline.png width="800">
+</p>
+
+<p align="right">
+(https://github.com/semacu/20170703_GitHubintheLab_CRUK-CI)
+</p>
+
+
+### Public (free) and private repositories
+
+An user has to create a GitHub account in order to create repositories:
+
+- Public repositories are free, and can be browsed and downloaded by anyone
+- Private repositories have associated costs - see [pricing of plans](https://github.com/pricing). The developer plan costs $7/month but it is free if you are [a student or an academic](https://education.github.com/pack)
+
+Alternatively, [GitLab](https://about.gitlab.com/) uses a different business strategy with free private repositories and cost plans for public ones. There are other alternatives e.g. [Bitbucket](https://bitbucket.org/).
+
+
+### Markdown
+
+GitHub uses Markdown for text edition, a language with plain text formatting syntax, to render pages online. Examples of Markdown syntax are [here](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 
 
 
