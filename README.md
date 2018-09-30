@@ -32,19 +32,38 @@
 </p>
 
 
-Being more open and reproducible improves our science:
+**Being more open and reproducible helps to improve science:
 
 - Nature Methods 2018 editorial [**Easing the burden of code review**](https://www.nature.com/articles/s41592-018-0137-5):
 
 *An increasing share of modern research relies on analytical code and software. In turn, a good deal of irreproducible research can be attributed to computational tools that are difficult to decipher, use or recreate. Through the concerted efforts of computational researchers and stricter guidelines from publishers, the culture of scientific software is now more open and geared toward dissemination than ever [...]*
 
-- GitHub has become the go-to site when releasing code associated to a manuscript or a project
+- Version control in general and GitHub in particular has become the go-to site when releasing code associated to a manuscript or scripts from a project
 
 
 
-## What is Git? What is version control? What is GitHub?
+## What is version control? What is Git? What is GitHub?
 
-- [**Git**](https://git-scm.com) is a version control system to keep track and compare the history of changes (*versions*) made to your scripts and files. It is **free** and **open source** and allows you to:
+- [**Version control**] is the management of *changes* (a.k.a. *revisions*) to any types of information
+  - Simple versioning: adding v1.0, v1.1, v1.2, v2.0 ... to file names
+  - Basic tools: Google Drive, Dropbox ...
+  - Advanced tools: Git
+
+The first version control systems were originally created by groups writing software and code, but can be used for any kind of files or projects.
+
+<p align="center">
+<img src=../../../20171024_GitHub_Chemistry_Cambridge/blob/master/images/vcs.png width="800">
+</p>
+
+<p align="right">
+(adapted from http://lhzuigao.com/309note.html)
+</p>
+
+Advantages of *distributed* over *centralised* version control systems involve:
+  - If the central repository (server) crashes, it could be recovered / backed up from any of the local repositories created by the researcher, collaborator or group leader.
+  - Each person can make changes to their local repositories *offline*. Then integrate their individual changes in the central repository (server) when connected *online*.
+
+- [**Git**](https://git-scm.com) is a *distributed* version control system to keep track and compare the history of *changes* made to your scripts and files. It was created by Linus Torvalds in 2005 for the development of the Linux project. It is **free** and **open source** and allows you to:
   - Create repositories to host your projects using the [command-line](https://en.wikipedia.org/wiki/Command-line_interface)
   - Track changes in the files and folders within your repositories
 
