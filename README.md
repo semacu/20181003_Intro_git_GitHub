@@ -44,7 +44,7 @@
 
 ## What is version control? What is Git? What is GitHub?
 
-**Version control** is the management of *changes* (a.k.a. *revisions*) to any types of information
+[**Version control**](https://git-scm.com/book/en/v2/Getting-Started-About-Version-Control) is the management of *changes* (a.k.a. *revisions*) to any types of information
   - Simple versioning: adding v1.0, v1.1, v1.2, v2.0 ... to file names
   - Basic tools: Google Drive, Dropbox ...
   - Advanced tools: Git
@@ -59,29 +59,56 @@ The first version control systems were created by groups writing software and co
 (adapted from http://lhzuigao.com/309note.html)
 </p>
 
-Advantages of *distributed* over *centralised* version control systems involve:
+Advantages of *distributed* (right) over *centralised* (left) version control systems involve:
 
-  - If the central repository (server) crashes, it could be recovered / backed up from any of the local repositories created by the researcher, collaborator or group leader.
+  - If the central repository (server) crashes, it could be recovered / backed up from any of the local repositories created e.g. by the researcher, collaborator or group leader.
   - Each person can make changes to their local repositories *offline*. Then integrate their individual changes in the central repository (server) when connected *online*.
 
 
-[**Git**](https://git-scm.com) is a *distributed* version control system to keep track and compare the history of *changes* made to your scripts and files. It was created by Linus Torvalds in 2005 for the development of the Linux project. It is **free** and **open source** and allows you to:
-  - Create repositories to host your projects using the [command-line](https://en.wikipedia.org/wiki/Command-line_interface)
-  - Track changes in the files and folders within your repositories
+[**Git**](https://git-scm.com) is a *distributed* version control system to keep track and compare the history of *changes* made to your scripts and files. It allows groups of people to work on the same documents at the same time, and without stepping on each other's toes. It was created by Linus Torvalds in 2005 for the development of the Linux project. It is **free** and **open source** and helps you with:
+  - Creating repositories to host your projects using the [command-line](https://en.wikipedia.org/wiki/Command-line_interface)
+  - Tracking changes in the files and folders within your repositories
 
 
-[**GitHub**](https://github.com/) is a platform to share and showcase your work online with collaborators and the wider audience. A tool to help you build projects that are collaborative, well documented, and version-controlled. It provides:
-  - A backup of your repositories
-  - A nice visual interface to your repositories
-  - A method to collaborate with others
+[**GitHub**](https://github.com/) is a platform to share and showcase your work online with collaborators and the wider audience. A tool to help you build projects that are collaborative, well documented, and version-controlled. It provides you with:
+  - A place to host and backup your repositories online
+  - A nice web interface to your repositories
+  - A strategy to collaborate with colleagues
 
 Versions in Git and GitHub are identified by a *revision number*, e.g. 60363b1, also known as *commit*. Each revision is associated with a *timestamp* and the *person* making the change. Revisions can be **compared**, **restored**, and with some types of files, **merged**.
 
-There are other softwares for version control similar to Git, e.g. [svn](https://en.wikipedia.org/wiki/Apache_Subversion), and also other online platforms similar to GitHub to share and collaborate code, e.g. [GitLab](https://about.gitlab.com/).
+There are other softwares for version control similar to Git, e.g. [svn](https://en.wikipedia.org/wiki/Apache_Subversion). Also, there are other online platforms similar to GitHub to share and collaborate code, e.g. [GitLab](https://about.gitlab.com/).
 
 
 
 ## How can you use Git and GitHub? How can they be useful for you?
+
+The interfaces to Git and GitHub are:
+
+- Via the command-line using *git*
+
+<p align="center">
+<img src=../../../20171024_GitHub_Chemistry_Cambridge/blob/master/images/git_commandline.png width="600">
+</p>
+
+- Directly [online](http://github.com/)
+
+<p align="center">
+<img src=../../../20171024_GitHub_Chemistry_Cambridge/blob/master/images/github_online.png width="800">
+</p>
+
+- Github [Desktop](https://desktop.github.com/) (available for Mac and Windows)
+
+<p align="center">
+<img src=../../../20171024_GitHub_Chemistry_Cambridge/blob/master/images/github_desktop.png width="800">
+</p>
+
+<p align="right">
+(https://programminghistorian.org/lessons/getting-started-with-github-desktop)
+</p>
+
+For this workshop, we will mainly use GitHub's online interface and git commands.
+
 
 
 ## Practical session: working with Git and GitHub
@@ -122,6 +149,7 @@ Books:
 Courses:
 - [A Friendly Introduction to GitHub](https://kirstiejane.github.io/friendly-github-intro/)
 - [Software Carpentry: Version Control with Git](http://swcarpentry.github.io/git-novice/)
+- [Resources to learn Git](http://try.github.io/)
 - [GitHub On Demand Training](https://services.github.com/on-demand/)
 - [A quick introduction to Git and GitHub](http://www.datacarpentry.org/semester-biology/materials/git-in-30-minutes/)
 
@@ -152,5 +180,5 @@ Websites:
 ## Acknowledgements
 
 <p align="center">
-<img src=images/UniversityCambridge_logo.png height="50"> <img src=images/CRUKCI_logo.jpg height="50"> <img src=images/Jisc_logo.png height="50"> <img src=images/WellcomeTrust_logo.jpg height="50">
+<img src=../../../20171024_GitHub_Chemistry_Cambridge/blob/master/images/UniversityCambridge_logo.png height="50"> <img src=../../../20171024_GitHub_Chemistry_Cambridge/blob/master/images/CRUKCI_logo.jpg height="50"> <img src=../../../20171024_GitHub_Chemistry_Cambridge/blob/master/images/Jisc_logo.png height="50"> <img src=../../../20171024_GitHub_Chemistry_Cambridge/blob/master/images/WellcomeTrust_logo.jpg height="50">
 </p>
