@@ -13,7 +13,7 @@
 **Morning session**:
 
 - [Background and motivation](README.md#background-and-motivation)
-- [What is Git? What is version control? What is GitHub?](README.md#what-is-git-what-is-version-control-what-is-github)
+- [What is version control? What is Git? What is GitHub?](README.md#what-is-version-control-what-is-git-what-is-github)
 - [How can you use Git and GitHub? How can they be useful for you?](README.md#how-can-you-use-git-and-github-how-can-they-be-useful-for-you)
 - [Practical session: working with Git and GitHub](README.md#practical-session-working-with-git-and-github)
 
@@ -23,7 +23,16 @@
 
 ## Background and motivation
 
-Being more open and reproducible helps science:
+<p align="center">
+<img src=../20171024_GitHub_Chemistry_Cambridge/images/finaldoc.gif width="600">
+</p>
+
+<p align="right">
+(http://phdcomics.com/comics/archive_print.php?comicid=1531)
+</p>
+
+
+Being more open and reproducible improves our science:
 
 - Nature Methods 2018 editorial [**Easing the burden of code review**](https://www.nature.com/articles/s41592-018-0137-5):
 
