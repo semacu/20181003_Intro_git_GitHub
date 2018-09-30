@@ -24,7 +24,7 @@
 ## Background and motivation
 
 <p align="center">
-<img src=../20171024_GitHub_Chemistry_Cambridge/blob/master/images/finaldoc.gif width="600">
+<img src=../../../20171024_GitHub_Chemistry_Cambridge/blob/master/images/finaldoc.gif width="600">
 </p>
 
 <p align="right">
