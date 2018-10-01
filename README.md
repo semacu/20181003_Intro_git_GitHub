@@ -1,3 +1,4 @@
+
 <img align="right" src=images/github_icon.png width="225">
 
 # Beginners introduction to Git and GitHub
@@ -10,14 +11,14 @@
 
 ## Overview
 
-**Morning session**:
+**Morning session** (Sergio and Mark):
 
 - [Background and motivation](README.md#background-and-motivation)
 - [What is version control? What is Git? What is GitHub?](README.md#what-is-version-control-what-is-git-what-is-github)
 - [How can you use Git and GitHub? How can they be useful for you?](README.md#how-can-you-use-git-and-github-how-can-they-be-useful-for-you)
 - [Practical session: working with Git and GitHub](README.md#practical-session-working-with-git-and-github)
 
-**Afternoon session**: markdown, pages and wikis; creating good README files; issue tracking; sofware licenses
+**Afternoon session** (Mark and Anne): markdown, pages and wikis; creating good README files; issue tracking; sofware licenses
 
 
 
@@ -165,7 +166,7 @@ Alternatively, [GitLab](https://about.gitlab.com/) uses a different business str
 
 ### Markdown
 
-GitHub uses Markdown for text edition, a language with plain text formatting syntax, to render pages online. Examples of Markdown syntax are [here](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
+GitHub uses Markdown for text edition, a language with plain text formatting syntax, to render pages online. Some examples of Markdown syntax are available [here](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet).
 
 
 
@@ -179,7 +180,7 @@ GitHub uses Markdown for text edition, a language with plain text formatting syn
 
 *[...] Yet, even in the era of Git repositories, peer reviewing code can be frustrating and time consuming [...] Computational tools are complex objects that depend on many components to run. Dependencies include the operating system, programming language, external code libraries, configuration settings and run parameters. Reproducing these conditions is made even harder by the fact that components typically exist in multiple versions. Many come with their own prerequisites, creating a maddening rabbit hole of dependencies on dependencies [...]*
 
-Two tools that begin to make a difference in the area of code reproducibility and will be the aim of future workshops:
+The next step is to be able to execute code automatically online (cloud). Two new resources are beginning to make a difference in this area:
 
 - [Code Ocean](https://codeocean.com/)
 - [Binder](https://mybinder.org/)
@@ -192,7 +193,7 @@ Many Thanks for your attention! Enjoy Git and GitHub! :octocat:
 
 Feedback: please complete the following [short survey]()
 
-Any later questions about this workshop and materials? Just email: sermarcue@gmail.com or mark.fernandes@cruk.cam.ac.uk
+Any later questions about this workshop or the materials? Just email: sermarcue@gmail.com or mark.fernandes@cruk.cam.ac.uk
 
 
 
