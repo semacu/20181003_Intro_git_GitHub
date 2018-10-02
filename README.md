@@ -28,7 +28,7 @@
 
 - Keeping track of the different versions of your project is one more way of being more reproducible.
 
-- Some manual approaches to control the versions of your project have **clear limitations**:
+- Some of the manual approaches to version control have **clear limitations**:
 
 <p align="center">
 <img src=../../../20171024_GitHub_Chemistry_Cambridge/blob/master/images/finaldoc.gif width="600">
@@ -42,7 +42,7 @@
 
 *An increasing share of modern research relies on analytical code and software. In turn, a good deal of irreproducible research can be attributed to computational tools that are difficult to decipher, use or recreate. Through the concerted efforts of computational researchers and stricter guidelines from publishers, the culture of scientific software is now more open and geared toward dissemination than ever [...]*
 
-- Above all, GitHub has become the go-to site when releasing / sharing code associated to a manuscript or scripts developed within a project.
+- GitHub is becoming the go-to site when it comes to releasing / sharing the code associated to a manuscript or the scripts developed within a project.
 
 
 
@@ -191,19 +191,19 @@ We have four possible tutorials:
 - Fill in your **Username**, **Email** and **Password**. Then click on the green button "Sign up for GitHub".
 
 <p align="center">
-<img src=images/p1_1.png width="800">
+<img src=../../../20171024_GitHub_Chemistry_Cambridge/blob/master/images/p1_1.png width="800">
 </p>
 
 - Choose your personal plan page. For now select "Unlimited public repositories for free". Then click on "Continue".
 
 <p align="center">
-<img src=images/p1_2.png width="800">
+<img src=../../../20171024_GitHub_Chemistry_Cambridge/blob/master/images/p1_2.png width="800">
 </p>
 
 - Tailor your experience page. Choose the boxes that apply to you and click on "Submit". Otherwise, just go to "skip this step".
 
 <p align="center">
-<img src=images/p1_3.png width="800">
+<img src=../../../20171024_GitHub_Chemistry_Cambridge/blob/master/images/p1_3.png width="800">
 </p>
 
 - You have created a GitHub account! :smile:
