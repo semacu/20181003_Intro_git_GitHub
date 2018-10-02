@@ -404,7 +404,7 @@ Bonus points (5 min):
 - **Stage** and **commit**:
 
 <p align="center">
-<img src=images/stage_commit.png width="300">
+<img src=images/stage_commit.png width="500">
 </p>
 
 <p align="right">
@@ -412,6 +412,9 @@ Bonus points (5 min):
 </p>
 
 
+- **Push**: sends the recent commit history from your local repository up to GitHub.
+
+- **Pull**: grabs any changes from the remote GitHub repository and merges them into your local repository.
 
 
 
