@@ -235,6 +235,49 @@ We have four possible tutorials:
 
 
 
+### Explore your first repository and GitHub account
+
+#### Your first repository
+
+- Click on **README.md** and go to the right pencil "Edit this file". Type anything to change the file, e.g. "GitHub is fun!".
+
+<p align="center">
+<img src=../../../20171024_GitHub_Chemistry_Cambridge/blob/master/images/p3_1.png width="800">
+</p>
+
+<p align="center">
+<img src=../../../20171024_GitHub_Chemistry_Cambridge/blob/master/images/p3_2.png width="800">
+</p>
+
+- Scroll down. Introduce a commit change message, e.g. "My first update", and select the radio button "Commit directly to the master branch". Then click on "Commit changes". Voilá!
+
+<p align="center">
+<img src=../../../20171024_GitHub_Chemistry_Cambridge/blob/master/images/p3_3.png width="800">
+</p>
+
+- To view your **history of commits** for **README.md**, click on **README.md** and go to the middle-right "History" button.
+- Alternatively, to view your **history of commits** for your first repository, click on the name of your repository and select the tab depicting a small clock and the number of commits next to it.
+
+Bonus points:
+
+- Try to create a new file
+- In your new repository, have a look at the "Settings" tab, explore "Collaborators" and try to add the person sitting next to you.
+
+
+#### Your GitHub account
+
+- Click on your top-right "avatar" icon and select "Settings".
+
+<p align="center">
+<img src=../../../20171024_GitHub_Chemistry_Cambridge/blob/master/images/p3_4.png width="800">
+</p>
+
+- Explore the tabs "Profile", "Account" and "Emails".
+
+
+
+
+
 ## Future outlook
 
 - In the context of computational reproducibility, going back to the Nature Methods August 2018 editorial [**Easing the burden of code review**](https://www.nature.com/articles/s41592-018-0137-5):
