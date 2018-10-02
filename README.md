@@ -255,10 +255,10 @@ We have four possible tutorials:
 <img src=../../../20171024_GitHub_Chemistry_Cambridge/blob/master/images/p3_3.png width="800">
 </p>
 
-- To view your **history of commits** for **README.md**, click on **README.md** and go to the middle-right "History" button.
+- To view your **history of commits** for **README.md**, click on **README.md** and then on the "History" button on the right.
 - Alternatively, to view your **history of commits** for your first repository, click on the name of your repository and select the tab depicting a small clock and the number of commits next to it.
 
-Bonus points:
+Bonus points (5 min):
 
 - Try to create a new file
 - In your new repository, have a look at the "Settings" tab, explore "Collaborators" and try to add the person sitting next to you.
@@ -277,6 +277,111 @@ Bonus points:
 
 
 
+### Making changes using Git in the command-line
+
+#### Check if Git is already installed in your computer, otherwise install Git
+
+- (If in Mac), go to *Finder* -> *Applications* -> *Utilities* -> *Terminal* and type `git --version`.
+  - If you get as output something like `git version 2.5.4 (Apple Git-61)`, then Git is already installed -> Jump to the next section.
+  - If you get something around `git: command not found`, keep reading.
+
+- To install Git in Mac, follow one of the next strategies:
+  1. When running one of the following commands `git --version`, `git config` or `xcode-select --install` you may be offered to install developer command line tools. Accept the offer and follow with "Install".
+  2. Go to https://git-scm.com/downloads and download git. Double click on the downloaded executable and follow instructions.
+  3. If you have `homebrew` installed, type the following in the Terminal: `brew install git`.
+
+- Check the following for installing in [Windows](http://happygitwithr.com/install-git.html#windows) or [Linux](http://happygitwithr.com/install-git.html#linux).
+
+
+#### Tell git who you are (your GitHub username) and what your email address is
+
+Example:
+
+```bash
+cd ~/Desktop
+git config --global user.name "githubchemistry"
+git config --global user.email "sm848@cam.ac.uk"
+```
+
+Check:
+
+```bash
+git config --list
+```
+
+
+#### Clone the repository created before
+
+```bash
+git clone https://github.com/githubchemistry/my_first_repository.git
+cd my_first_repository
+ls -lh
+#-rw-r--r--  1 martin03  1310    38B 24 Oct 09:16 README.md
+```
+
+Your first repository created using GitHub is now a local repository located in your Desktop folder.
+
+
+#### Tell git what's your repository url to pull and push commits
+
+```bash
+cd ~/Desktop/my_first_repository
+git remote set-url origin https://githubchemistry@github.com/githubchemistry/my_first_repository.git
+```
+
+Check:
+
+```bash
+git remote -v
+```
+
+
+#### Make a change to the `README.md` file using your favourite text editor
+
+- In your Desktop, go the cloned folder and open `README.md` with a text editor, e.g. TextEdit.
+- Change the file, e.g. add a new line "This is my second line of script" and save changes.
+- Check how changes are tracked by Git:
+
+```bash
+cd ~/Desktop/my_first_repository
+git status
+```
+
+Now the status of `README.md` is modified.
+
+
+#### Stage and commit the change
+
+Staging:
+
+```bash
+git add README.md
+git status
+```
+
+Committing:
+
+```bash
+git commit -a -m "My second update"
+git status
+```
+
+#### Push changes to your online GitHub repository
+
+```bash
+git push origin master
+```
+
+Now check that your change to `README.md` made to your online GitHub repository.
+
+Bonus points:
+
+- Make another change to `README.md` using the online GitHub repository and pull the change to your local repository (Hint: `git pull`).
+
+Done!
+
+
+
 
 ## Future outlook
 
@@ -284,9 +389,9 @@ Bonus points:
 
 *[...] Yet, even in the era of Git repositories, peer reviewing code can be frustrating and time consuming [...] Computational tools are complex objects that depend on many components to run. Dependencies include the operating system, programming language, external code libraries, configuration settings and run parameters. Reproducing these conditions is made even harder by the fact that components typically exist in multiple versions. Many come with their own prerequisites, creating a maddening rabbit hole of dependencies on dependencies [...]*
 
-In other words, going beyond releasing the code available to other users, future steps are to be able to execute code directly online (cloud). Two new resources are beginning to make a difference in this area - check them out :wink:
+In other words, future steps will be to be able to execute code directly online (cloud). Two new resources are beginning to make a difference in this area - check them out :wink:
 
-- [Code Ocean](https://codeocean.com/)
+- [Code Ocean](https://codeocean.com/): Nature Methods, Nature Biotechnology and Nature Machine Intelligence have launched a trial to facilitate the peer review of computational methods and to improve their reproducibility
 - [Binder](https://mybinder.org/)
 
 
