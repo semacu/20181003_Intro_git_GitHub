@@ -24,6 +24,12 @@
 
 ## Background and motivation
 
+- When repeating / reviewing previous work, researchers greatly benefit from having access to detailed documention of the methods used.
+
+- Keeping track of the different versions of your project is one more way of being more reproducible.
+
+- Some manual approaches to control the versions of your project have **clear limitations**:
+
 <p align="center">
 <img src=../../../20171024_GitHub_Chemistry_Cambridge/blob/master/images/finaldoc.gif width="600">
 </p>
@@ -32,14 +38,11 @@
 (http://phdcomics.com/comics/archive_print.php?comicid=1531)
 </p>
 
-
-**Being more open and reproducible helps to improve science**:
-
-- Nature Methods 2018 editorial [**Easing the burden of code review**](https://www.nature.com/articles/s41592-018-0137-5):
+- The scientific community is beginning to consider the value of peer reviewing computer code - see Nature Methods August 2018 editorial [**Easing the burden of code review**](https://www.nature.com/articles/s41592-018-0137-5):
 
 *An increasing share of modern research relies on analytical code and software. In turn, a good deal of irreproducible research can be attributed to computational tools that are difficult to decipher, use or recreate. Through the concerted efforts of computational researchers and stricter guidelines from publishers, the culture of scientific software is now more open and geared toward dissemination than ever [...]*
 
-- GitHub has become the go-to site when releasing code associated to a manuscript or scripts developed within a project
+- Above all, GitHub has become the go-to site when releasing / sharing code associated to a manuscript or scripts developed within a project.
 
 
 
@@ -50,7 +53,7 @@
   - Basic tools: Google Drive, Dropbox ...
   - Advanced tools: Git
 
-The first version control systems were created by groups writing software and code, but they can now be used for any kind of files or projects.
+The first version control systems were created by groups writing software and code. Fortunately they can now be used not only for computer code but for any type of files :smile:
 
 <p align="center">
 <img src=../../../20171024_GitHub_Chemistry_Cambridge/blob/master/images/vcs.png width="800">
@@ -108,18 +111,18 @@ The interfaces to Git and GitHub are:
 (https://programminghistorian.org/lessons/getting-started-with-github-desktop)
 </p>
 
-For this workshop, we will use git commands and GitHub's online interface.
+For this workshop, we will use Git commands and GitHub's online interface.
 
 
 ### Examples
 
 - To host and share your research outputs and software
-  - Research slides by [Bérénice Batut](https://bebatut-slides.github.io/backofen_lab_retreat_04_17/#/)
-  - Laboratories sharing own research e.g. [Jefferis](https://github.com/jefferislab) and [Balasubramanian](https://github.com/sblab-bioinformatics)
+  - Laboratories sharing own research e.g. the [Jefferis](https://github.com/jefferislab) or [Balasubramanian](https://github.com/sblab-bioinformatics) groups
   - Software source codes e.g. [BWA](https://github.com/lh3/bwa), an aligner of DNA sequences to reference genomes, and [PIDGIN](https://github.com/lhm30/PIDGINv2), and algorithm to predict protein targets for drug-like molecules
+  - Or even to share research slides - see [Bérénice Batut](https://bebatut-slides.github.io/backofen_lab_retreat_04_17/#/)
 
 - To create websites using [GitHub pages]((https://pages.github.com/))
-  - Personal websites, e.g. [Mike Love site](http://mikelove.github.io/)
+  - Personal research websites, e.g. [Mike Love site](http://mikelove.github.io/)
   - Courses and activities, e.g.
     - [A Friendly Introduction to GitHub](https://kirstiejane.github.io/friendly-github-intro/)
     - [Statistics course in the University of British Columbia](http://stat545.com/index.html)
@@ -132,12 +135,11 @@ For this workshop, we will use git commands and GitHub's online interface.
 ### In the context of our research group
 
 - Communication is key as most projects have both experimental and computational leaders
-- Classical ways of exchange are: conversations/meetings, email, Dropbox, shared folders ...
-- We want to build an environment where:
+- Building from the classical ways of sharing - conversations/meetings, email, Dropbox, shared folders ... we want to build an environment where:
   - Computational colleagues can share code, figures and tables. Review others work and get credit from their collaborative work
   - Experimental colleagues can follow computational developments, access results and learn methods of data analysis
 
-- And avoid situations like ...
+- And ideally avoiding situations like ...
 
 <p align="center">
 <img src=../../../20171024_GitHub_Chemistry_Cambridge/blob/master/images/reproducibility.gif width="800">
@@ -147,7 +149,7 @@ For this workshop, we will use git commands and GitHub's online interface.
 (http://phdcomics.com/comics.php?f=1689)
 </p>
 
-- Striving for a happier lifetime of a project:
+- Parhaps a happier lifetime for a research project:
 
 <p align="center">
 <img src=../../../20171024_GitHub_Chemistry_Cambridge/blob/master/images/project_timeline.png width="800">
@@ -160,7 +162,7 @@ For this workshop, we will use git commands and GitHub's online interface.
 
 ### Public (free) and private repositories
 
-An user has to create a GitHub account in order to create repositories:
+If you want to start creating repositories in GitHub, your first need to open an account:
 
 - Public repositories are free, and can be browsed and downloaded by anyone
 - Private repositories have associated costs - see [pricing of plans](https://github.com/pricing). The developer plan costs $7/month but it is free if you are [a student or an academic](https://education.github.com/pack)
@@ -233,14 +235,13 @@ We have four possible tutorials:
 
 
 
-
 ## Future outlook
 
-- Nature Methods 2018 editorial [**Easing the burden of code review**](https://www.nature.com/articles/s41592-018-0137-5):
+- In the context of computational reproducibility, going back to the Nature Methods August 2018 editorial [**Easing the burden of code review**](https://www.nature.com/articles/s41592-018-0137-5):
 
 *[...] Yet, even in the era of Git repositories, peer reviewing code can be frustrating and time consuming [...] Computational tools are complex objects that depend on many components to run. Dependencies include the operating system, programming language, external code libraries, configuration settings and run parameters. Reproducing these conditions is made even harder by the fact that components typically exist in multiple versions. Many come with their own prerequisites, creating a maddening rabbit hole of dependencies on dependencies [...]*
 
-The next step is to be able to execute code automatically online (cloud). Two new resources are beginning to make a difference in this area:
+In other words, going beyond releasing the code available to other users, future steps are to be able to execute code directly online (cloud). Two new resources are beginning to make a difference in this area - check them out :wink:
 
 - [Code Ocean](https://codeocean.com/)
 - [Binder](https://mybinder.org/)
