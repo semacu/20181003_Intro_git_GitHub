@@ -120,9 +120,13 @@ For this workshop, we will use git commands and GitHub's online interface.
 
 - To create websites using [GitHub pages]((https://pages.github.com/))
   - Personal websites, e.g. [Mike Love site](http://mikelove.github.io/)
-  - Courses and activities, e.g. the [Statistics course in the University of British Columbia](http://stat545.com/index.html)
+  - Courses and activities, e.g.
+    - [A Friendly Introduction to GitHub](https://kirstiejane.github.io/friendly-github-intro/)
+    - [Statistics course in the University of British Columbia](http://stat545.com/index.html)
 
 - To share the contents of a book, e.g. [Bioinformatics Data Skills](https://github.com/vsbuffalo/bds-files) or [Happy Git and GitHub for the R user](http://happygitwithr.com/)
+
+- To write your PhD thesis, e.g. [A reasoning framework for C4 photosynthesis research based on high-throughput analysis](http://rik.smith-unna.com/phd/thesis.html)
 
 
 ### In the context of our research group
@@ -171,6 +175,62 @@ GitHub uses Markdown for text edition, a language with plain text formatting syn
 
 
 ## Practical session: working with Git and GitHub
+
+We have four possible tutorials:
+
+- [Create a GitHub account](README.md#create-a-github-account) (+)
+- [Create your first repository](README.md#create-your-first-repository) (+)
+- [Explore your first repository and GitHub account](README.md#explore-your-first-repository-and-github-account) (++)
+- [Making changes using Git in the command-line](README.md#making-changes-using-git-in-the-command-line) (+++)
+
+### Create a GitHub account
+
+- Go to https://github.com
+- Fill in your **Username**, **Email** and **Password**. Then click on the green button "Sign up for GitHub".
+
+<p align="center">
+<img src=images/p1_1.png width="800">
+</p>
+
+- Choose your personal plan page. For now select "Unlimited public repositories for free". Then click on "Continue".
+
+<p align="center">
+<img src=images/p1_2.png width="800">
+</p>
+
+- Tailor your experience page. Choose the boxes that apply to you and click on "Submit". Otherwise, just go to "skip this step".
+
+<p align="center">
+<img src=images/p1_3.png width="800">
+</p>
+
+- You have created a GitHub account! :smile:
+
+
+
+### Create your first repository
+
+- If you are not already signed in, sign in to GitHub using the **Username/Email** and **Password** created before.
+- Click on the top-right "avatar" icon and select "Your profile". Have a quick browse through your page.
+
+<p align="center">
+<img src=images/p2_1.png width="800">
+</p>
+
+- Click on the top-right "+" icon and select "New repository". **Verify your email address**. You should have just received an email from GitHub in the address provided above. Find this email and click on "Verify email address".
+
+<p align="center">
+<img src=images/p2_2.png width="400"> <img src=images/p2_3.png width="400">
+</p>
+
+- Create a new repository page. Fill in a "Repository name", e.g. my_first_repository or my_analysis_script. For now choose "Public" and select the box to initialize this repository with a README. Finally, click on "Create repository".
+
+<p align="center">
+<img src=images/p2_4.png width="800">
+</p>
+
+- You created your first repository! :rocket:
+
 
 
 
