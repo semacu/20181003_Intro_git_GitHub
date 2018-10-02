@@ -194,7 +194,7 @@ We have four possible tutorials:
 <img src=../../../20171024_GitHub_Chemistry_Cambridge/blob/master/images/p1_1.png width="800">
 </p>
 
-- Choose your personal plan page. For now select "Unlimited public repositories for free". Then click on "Continue".
+- Choose your personal plan page. Select "Free plan" and then click on "Continue".
 
 <p align="center">
 <img src=../../../20171024_GitHub_Chemistry_Cambridge/blob/master/images/p1_2.png width="800">
@@ -213,22 +213,22 @@ We have four possible tutorials:
 ### Create your first repository
 
 - If you are not already signed in, sign in to GitHub using the **Username/Email** and **Password** created before.
-- Click on the top-right "avatar" icon and select "Your profile". Have a quick browse through your page.
+- Click on the top-right "avatar icon" and select "Your profile". Have a quick browse through your page.
 
 <p align="center">
-<img src=images/p2_1.png width="800">
+<img src=../../../20171024_GitHub_Chemistry_Cambridge/blob/master/images/p2_1.png width="800">
 </p>
 
-- Click on the top-right "+" icon and select "New repository". **Verify your email address**. You should have just received an email from GitHub in the address provided above. Find this email and click on "Verify email address".
+- Click on the top-right "+" icon and select "New repository". **Verify your email address**. You should have just received an email from GitHub in the address provided before. Find this email and click on "Verify email address".
 
 <p align="center">
-<img src=images/p2_2.png width="400"> <img src=images/p2_3.png width="400">
+<img src=../../../20171024_GitHub_Chemistry_Cambridge/blob/master/images/p2_2.png width="400"> <img src=../../../20171024_GitHub_Chemistry_Cambridge/blob/master/images/p2_3.png width="400">
 </p>
 
 - Create a new repository page. Fill in a "Repository name", e.g. my_first_repository or my_analysis_script. For now choose "Public" and select the box to initialize this repository with a README. Finally, click on "Create repository".
 
 <p align="center">
-<img src=images/p2_4.png width="800">
+<img src=../../../20171024_GitHub_Chemistry_Cambridge/blob/master/images/p2_4.png width="800">
 </p>
 
 - You created your first repository! :rocket:
