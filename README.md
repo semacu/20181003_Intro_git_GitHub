@@ -172,7 +172,8 @@ Alternatively, [GitLab](https://about.gitlab.com/) uses a different business str
 
 ### Markdown
 
-GitHub uses Markdown for text edition, a language with plain text formatting syntax, to render pages online. Some examples of Markdown syntax are available [here](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet).
+GitHub uses Markdown for text edition, a language with plain text formatting syntax (bold, italics, checkboxes, lists, etc.), to render pages online (like HTML but easier). You can use this syntax in text files (.md), commit messages, issues, and more. Some examples of Markdown syntax are available [here](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet).
+
 
 
 
@@ -275,11 +276,23 @@ Bonus points (5 min):
 - Explore the tabs "Profile", "Account" and "Emails".
 
 
+**Key glossary:**
+
+- **Repository**: it can be thought of as a project folder. A **repository** contains all of the project files, issues, wikis and more. It also stores the history and versions of each file.
+
+- **Commit**: equivalent to saving your changes to a file. When you **commit** you usually include a brief description of the changes you made so you can identify versions later if you want to undo a change.
+
+- **Branch**: an identical copy of a project at a particular point in time kept separate from the 'master' branch (primary copy). This keeps your code in the 'master' branch safe while you make changes and experiment with code on the new branch. You can merge your new branch back into the 'master' branch when you want to publish your changes.
+
+- **Master**: the default branch in your repository.
+
+- **Collaborator**: someone with read and write privileges to a repository as approved by the repository owner.
+
 
 
 ### Making changes using Git in the command-line
 
-#### Check if Git is already installed in your computer, otherwise install Git
+#### Check if Git is already installed in your computer, otherwise install it
 
 - (If in Mac), go to *Finder* -> *Applications* -> *Utilities* -> *Terminal* and type `git --version`.
   - If you get as output something like `git version 2.5.4 (Apple Git-61)`, then Git is already installed -> Jump to the next section.
@@ -299,9 +312,11 @@ Example:
 
 ```bash
 cd ~/Desktop
-git config --global user.name "githubchemistry"
-git config --global user.email "sm848@cam.ac.uk"
+git config --global user.name "semacu"
+git config --global user.email "sermarcue@gmail.com"
 ```
+
+**Remember to change** "semacu" and "sermarcue@gmail.com" to the username and email you used when creating the GitHub account above.
 
 Check:
 
@@ -313,20 +328,19 @@ git config --list
 #### Clone the repository created before
 
 ```bash
-git clone https://github.com/githubchemistry/my_first_repository.git
+git clone https://github.com/semacu/my_first_repository.git
 cd my_first_repository
 ls -lh
-#-rw-r--r--  1 martin03  1310    38B 24 Oct 09:16 README.md
 ```
 
-Your first repository created using GitHub is now a local repository located in your Desktop folder.
+Your first repository created using GitHub (my_first_repository) is now a local repository located in your Desktop folder. *Remember what we discussed earlier about Git being a distributed version control system*.
 
 
-#### Tell git what's your repository url to pull and push commits
+#### Tell git what's your remote repository url to pull and push commits
 
 ```bash
 cd ~/Desktop/my_first_repository
-git remote set-url origin https://githubchemistry@github.com/githubchemistry/my_first_repository.git
+git remote set-url origin https://semacu@github.com/semacu/my_first_repository.git
 ```
 
 Check:
@@ -338,16 +352,16 @@ git remote -v
 
 #### Make a change to the `README.md` file using your favourite text editor
 
-- In your Desktop, go the cloned folder and open `README.md` with a text editor, e.g. TextEdit.
-- Change the file, e.g. add a new line "This is my second line of script" and save changes.
-- Check how changes are tracked by Git:
+- In your Desktop, use Finder to go to the cloned folder and open `README.md` with your favourite text editor, e.g. TextEdit.
+- Change `README.md`, e.g. add a new line "This is my second line of script" and save changes.
+- Now, go back to the Terminal and check how changes are tracked by Git:
 
 ```bash
 cd ~/Desktop/my_first_repository
 git status
 ```
 
-Now the status of `README.md` is modified.
+The status of `README.md` is modified but the changes are not staged (red).
 
 
 #### Stage and commit the change
@@ -358,6 +372,8 @@ Staging:
 git add README.md
 git status
 ```
+
+The status of `README.md` is modified and now the changes are `staged` (green) and ready to commit.
 
 Committing:
 
@@ -374,18 +390,36 @@ git push origin master
 
 Now check that your change to `README.md` made to your online GitHub repository.
 
-Bonus points:
+Bonus points (5 min):
 
-- Make another change to `README.md` using the online GitHub repository and pull the change to your local repository (Hint: `git pull`).
+- Make another change to `README.md` using the online GitHub repository and pull the change to your local repository (Hint: use `git pull`).
 
-Done!
+
+**Key glossary:**
+
+- **Clone**: a copy of an online repository on your local computer so you can make edits on your own personal copy without having to be online. You can sync changes between your clone and the remote copy (GitHub) when you are online.
+
+- **Remote**: a version of your project repository that is hosted on the Internet or network somewhere (e.g. copy of your project on GitHub vs. on your local computer).
+
+- **Stage** and **commit**:
+
+<p align="center">
+<img src=images/stage_commit.png width="300">
+</p>
+
+<p align="right">
+(https://git-scm.com/book/en/v2/Getting-Started-Git-Basics)
+</p>
+
+
+
 
 
 
 
 ## Future outlook
 
-- In the context of computational reproducibility, going back to the Nature Methods August 2018 editorial [**Easing the burden of code review**](https://www.nature.com/articles/s41592-018-0137-5):
+- Next steps for computational reproducibility, going back to the Nature Methods August 2018 editorial [**Easing the burden of code review**](https://www.nature.com/articles/s41592-018-0137-5):
 
 *[...] Yet, even in the era of Git repositories, peer reviewing code can be frustrating and time consuming [...] Computational tools are complex objects that depend on many components to run. Dependencies include the operating system, programming language, external code libraries, configuration settings and run parameters. Reproducing these conditions is made even harder by the fact that components typically exist in multiple versions. Many come with their own prerequisites, creating a maddening rabbit hole of dependencies on dependencies [...]*
 
