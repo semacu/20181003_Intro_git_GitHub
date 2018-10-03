@@ -11,14 +11,14 @@
 
 ## Overview
 
-**Morning session** (Sergio and Mark):
+**Morning session** (Sergio and Mark) https://tinyurl.com/git-intro-zoology:
 
 - [Background and motivation](README.md#background-and-motivation)
 - [What is version control? What is Git? What is GitHub?](README.md#what-is-version-control-what-is-git-what-is-github)
 - [How can you use Git and GitHub? How can they be useful for you?](README.md#how-can-you-use-git-and-github-how-can-they-be-useful-for-you)
 - [Practical session: working with Git and GitHub](README.md#practical-session-working-with-git-and-github)
 
-**Afternoon session** (Mark and Anne): markdown, pages and wikis; creating good README files; issue tracking; sofware licenses
+**Afternoon session** (Mark and Anne) https://tinyurl.com/git-course: markdown, pages and wikis; creating good README files; issue tracking; sofware licenses
 
 
 
@@ -172,7 +172,11 @@ Alternatively, [GitLab](https://about.gitlab.com/) uses a different business str
 
 ### Markdown
 
-GitHub uses Markdown for text edition, a language with plain text formatting syntax (bold, italics, checkboxes, lists, etc.), to render pages online (like HTML but easier). You can use this syntax in text files (.md), commit messages, issues, and more. Some examples of Markdown syntax are available [here](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet).
+- GitHub uses Markdown for text edition, a language with plain text formatting syntax (bold, italics, checkboxes, lists, etc.), to render pages online (like HTML but easier). You can use this syntax in text files (.md), commit messages, issues, blog posts, and more.
+
+- Markdown is important because GitHub automatically renders anything written in Markdown. This can be specific files (eg: README), or your comments and issues.
+
+- Some examples of Markdown syntax are available [here](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet).
 
 
 
@@ -185,6 +189,7 @@ We have four possible tutorials:
 - [Create your first repository](README.md#create-your-first-repository) (+)
 - [Explore your first repository and GitHub account](README.md#explore-your-first-repository-and-github-account) (++)
 - [Making changes using Git in the command-line](README.md#making-changes-using-git-in-the-command-line) (+++)
+- [Extras](README.md#extras)
 
 ### Create a GitHub account
 
@@ -226,7 +231,7 @@ We have four possible tutorials:
 <img src=../../../20171024_GitHub_Chemistry_Cambridge/blob/master/images/p2_2.png width="400"> <img src=../../../20171024_GitHub_Chemistry_Cambridge/blob/master/images/p2_3.png width="400">
 </p>
 
-- Create a new repository page. Fill in a "Repository name", e.g. my_first_repository or my_analysis_script. For now choose "Public" and select the box to initialize this repository with a README. Finally, click on "Create repository".
+- Create a new repository page. Fill in a "Repository name", e.g. "my_first_repository" or "my_analysis_script". Write a short description of your repository e.g. "This is a test repository". For now choose "Public" and select the box to initialize this repository with a README. Finally, click on "Create repository".
 
 <p align="center">
 <img src=../../../20171024_GitHub_Chemistry_Cambridge/blob/master/images/p2_4.png width="800">
@@ -418,9 +423,19 @@ Bonus points (5 min):
 
 
 
+### Extras
+
+- Create an issue
+- Create a new branch, open a pull request and merge the newly created branch with the master branch
+- Fork a repository from another user e.g. https://github.com/githubtraining/hellogitworld, make some changes to the `README.txt` and create a pull request
 
 
-## Future outlook
+
+
+
+## Outlook
+
+- A basic overview to the basic functionality of Git and GitHub
 
 - Next steps for computational reproducibility, going back to the Nature Methods August 2018 editorial [**Easing the burden of code review**](https://www.nature.com/articles/s41592-018-0137-5):
 
